@@ -1,0 +1,36 @@
+body{
+    background-color: #6a3093;
+}
+
+.container-header{
+    background-image: url('./../assets/img/farm-bg.jfif');
+    background-size: cover;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px white;
+}
+.login-screen{
+    background-color: #6a3093;
+    height: 450px;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.container-products{
+    background-color: #52c234;
+    padding: 20px;
+    margin-top: 100px;
+    
+}
+.product-card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.03s;
+}
+.product-card:hover{
+    transform: scale(1.07);
+}
