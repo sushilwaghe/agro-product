@@ -43,7 +43,7 @@ function incKg(fruitName){
         currentQuantity++;
         document.getElementById('qnt-grapes').innerHTML = currentQuantity;
     }
-    else(fruitName=="orange")
+    else if(fruitName=="orange")
     {
         var currentQuantity= parseInt(document.getElementById('qnt-orange').innerHTML);
         currentQuantity++;
