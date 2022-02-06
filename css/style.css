@@ -6,12 +6,17 @@ body{
     font-size: 80px;
     font-style: bold;
 }
+.small-title{
+    color: white;
+    font-style: italic;
+    text-shadow: 0px 0px 2px black;
+}
 .container-header{
     background-image: url('./../assets/img/farm-bg.jfif');
     background-size: cover;
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0px 0px 10px white;
+    box-shadow: 0px 0px 10px black;
 }
 .login-screen{
     text-align: center;
